@@ -1,0 +1,98 @@
+/* .container {
+    position: relative; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+} */
+
+.photo img{
+    position: relative;
+    margin-left: 15rem;
+    margin-top: -50rem;
+    border-radius: 1rem;
+    z-index: -1;
+}
+
+/* .form {
+    z-index: 3;
+    margin-left: 60rem;
+    color: white;
+    
+
+} */
+
+.container {
+    display: flex; /* use flexbox to align elements */
+    flex-direction: row; /* align elements horizontally */
+    align-items: center; 
+    justify-content: center; 
+    height: 90vh; 
+}
+
+.photo {
+    position: relative;
+}
+
+.photo img {
+    position: relative;
+    margin-top: -39rem;
+    width: 63rem;
+    height: 85vh;
+    border-radius: 1rem;
+    z-index: -1; 
+}
+
+.form {
+    position: absolute;
+    top: 45%;
+    right: 20%; 
+    transform: translateY(-40%);
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5); /* add a semi-transparent background */
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace, Impact;
+    font-size: large;
+}
+
+form label, form input, form button {
+    display: block;
+    margin: -0.4rem 0em;
+}
+
+form input {
+    padding: -2rem;
+    border-radius: 0.4rem;
+    width: 22rem;
+}
+
+form button {
+    display: inline;
+    cursor: pointer;
+} 
+
+form button:hover {
+    background-color: #1666a3;
+}
+
+.previous {
+    position: absolute;
+    color: white;
+    margin-top: 6rem;
+    margin-left: 18rem;
+    z-index: 2;
+    font-size: larger;
+}
+
+.previous:hover {
+    color: #3f95d6;
+}
+
+.fs-4 {
+    position: relative;
+    z-index: 3;
+    margin-left: 60rem;
+    margin-top: -3rem;
+    color: gray;
+}
